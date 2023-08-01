@@ -211,6 +211,7 @@
   <!-- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v16.0\WebApplications\Microsoft.WebApplication.targets" /> -->
   <!-- <Import Project="..\packages\MSBuild.Microsoft.VisualStudio.Web_WebApplication.Targets.12.0.2\Microsoft.WebApplication.targets" /> -->
   <!-- <Import Project="..\packages\MSBuild.Microsoft.VisualStudio.Web_WebApplication.Targets.12.0.2\Microsoft.WebApplication.targets" /> -->
+<Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" />
   <Import Project="..\packages\MSBuild.Microsoft.VisualStudio.Web_WebApplication.Targets.12.0.2\tools\VSToolsPath\WebApplications\Microsoft.WebApplication.targets" Condition="true" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
